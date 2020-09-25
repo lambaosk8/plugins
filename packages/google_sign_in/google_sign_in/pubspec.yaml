@@ -17,6 +17,7 @@ flutter:
 
 dependencies:
   google_sign_in_platform_interface: ^1.1.1
+    path: ../google_sign_in_platform_interface/
   flutter:
     sdk: flutter
   meta: ^1.0.4
@@ -26,7 +27,7 @@ dependencies:
   # TODO(amirh): Revisit this (either update this part in the  design or the pub tool).
   # https://github.com/flutter/flutter/issues/46264
   google_sign_in_web:
-    path: ./packages/google_sign_in
+    path: ../google_sign_in_web
 
 dev_dependencies:
   http: ^0.12.0

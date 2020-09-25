@@ -13,7 +13,7 @@ flutter:
 
 dependencies:
   google_sign_in_platform_interface:
-    path: ./packages/google_sign_in
+    path: ../google_sign_in_platform_interface/
   flutter:
     sdk: flutter
   flutter_web_plugins:
