@@ -13,7 +13,10 @@ flutter:
 
 dependencies:
   google_sign_in_platform_interface:
-    path: ../google_sign_in_platform_interface/
+    git:
+      url: git://github.com/lambaosk8/plugins.git
+      ref: ecotruck-fix-server-auth-code
+      path: packages/google_sign_in/google_sign_in_platform_interface
   flutter:
     sdk: flutter
   flutter_web_plugins:
